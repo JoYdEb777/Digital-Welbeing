@@ -2,7 +2,7 @@
 import { createContext, useContext, useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://digital-welbeing-backend.onrender.com";
 
 const AuthContext = createContext(null);
 
